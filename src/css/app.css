@@ -1,0 +1,49 @@
+.screen {
+  display: grid;
+  grid-template-rows: 8fr 84fr 8fr;
+  height: 100vh;
+  grid-template-columns: 33fr 34fr 33fr;
+}
+
+.calculator {
+  grid-column: 2;
+  grid-row: 2;
+  border: 1px solid grey;
+  border-radius: 3%;
+  padding: 1em;
+  max-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 3em;
+  height: 3em;
+  border: 1px solid grey;
+  display: grid;
+  place-items: center;
+  margin: 1.4em;
+  cursor: pointer;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid grey;
+  padding: 0.5em;
+}
+
+.disabled{
+  background-color: grey;
+}
+
+.infinity{
+  background-color: rgba(230, 28, 28, 0.5);;
+}
