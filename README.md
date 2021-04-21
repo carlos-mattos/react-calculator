@@ -27,7 +27,7 @@ O React-Calculator foi um desafio desenvolvido no bootcamp fornecido pela [IGTI]
 $ git clone https://github.com/carlos-mattos/react-calculator.git
 # ou use a opção de download.
 
-# Entre na pasta react-calculator
+# Entre na pasta react-salary
 $ cd react-salary
 
 # Instale as dependências
